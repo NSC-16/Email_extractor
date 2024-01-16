@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Extractor</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header">
+                <h1 class="text-center">Email Extractor</h1>
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="textInput">Enter text here:</label>
+                    <textarea class="form-control" id="textInput" rows="15" placeholder="Type or paste your text here..."></textarea>
+                </div>
+                <button class="btn btn-primary" onclick="extractAndDisplay()">Extract Emails</button>
+                <div id="resultContainer" class="mt-4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Your custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
